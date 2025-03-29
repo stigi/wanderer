@@ -2,7 +2,7 @@
     import { _ } from "svelte-i18n";
     import type { ChangeEventHandler, FocusEventHandler, FormEventHandler } from "svelte/elements";
 
-    interface Props {
+    export interface Props {
         name?: string;
         value?: string | number;
         placeholder?: string;

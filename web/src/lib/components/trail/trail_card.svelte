@@ -18,7 +18,7 @@
     import type { MouseEventHandler } from "svelte/elements";
     import Chip from "../base/chip.svelte";
 
-    interface Props {
+    export interface Props {
         trail: Trail;
         fullWidth?: boolean;
         onmouseenter?: MouseEventHandler<HTMLDivElement>;

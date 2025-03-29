@@ -12,7 +12,7 @@
     import TextField from "./text_field.svelte";
     import type { Snippet } from "svelte";
 
-    interface Props {
+    export interface Props {
         maxSearchLength?: number;
         value?: string;
         items?: SearchItem[];
